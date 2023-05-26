@@ -1,0 +1,122 @@
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+h1{
+    text-shadow: 2px 5px 20px red, 2px -5px 20px blue;
+
+}
+.row1{
+    width: 100%;
+    display: block;
+}
+.row2{
+    width: 100%;
+    display: block;
+}
+.row3{
+    width: 100%;
+    display: block;
+    margin: 10px;
+}
+.row4{
+    width: 100%;
+    display: block;
+}
+.row5{
+    width: 100%;
+    display: block;
+}
+.row6{
+    width: 100%;
+    display: block;
+}
+.row7{
+    width: 100%;
+    display: block;
+}
+.row8{
+    width: 100%;
+    display: block;
+}
+.row9{
+    width: 100%;
+    display: block;
+}
+.row10{
+    width: 100%;
+    display: block;
+}
+.row11{
+    width: 100%;
+    display: block;
+}
+.col{
+    width: 30%;
+    margin: 20px;
+    display: block;
+    float: left;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(80,80,80,0.5);
+    -webkit-box-shadow: 0 0 10px rgba(80,80,80,0.5);
+    -moz-box-shadow: 0 0 10px rgba(80,80,80,0.5);
+    -o-box-shadow: 0 0 10px rgba(80,80,80,0.5);
+    transition:all 0.5s ease-in-out;
+}
+.col:hover{
+   transform: rotate(360deg);
+}
+.sana{
+    padding: 5rem 0;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    background-color: #7de29e;
+    color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.text-sana{
+    padding: 1.5rem 0;
+    text-align: center;
+}
+.row1 .col:first-child .sana{
+    background-color: indianred;
+}
+.row5 .col:nth-child(2) .sana{
+    background-color: indianred;
+}
+.row1 .col:hover{
+    transform: rotate(360deg);
+}
+.row2 .col:hover{
+    transform: rotate(-180deg);
+}
+.row3 .col:hover{
+    transform: skew(10deg);
+}
+.row4 .col:hover{
+    transform: scaleY(2)scaleZ(5);
+}
+.row5 .col:hover{
+    transform: rotate(50deg) scaleY(2);
+}
+.row6 .col:hover{
+    transform: skew(20deg) rotate(-50deg) ;
+}
+.row7 .col:hover{
+    transform: rotateX(180deg) rotateZ(-180deg);
+}
+.row8 .col:hover{
+    transform: skew(50deg) rotate(320deg);
+}
+.row9 .col:hover{
+    transform: skewY(50deg)skewX(-50deg);
+}
+.row10 .col:hover{
+    transform: rotateZ(50deg) rotateX(-50deg) rotateY(50deg);
+}
+.row11 .col:hover{
+    transform:rotateX(360deg) rotateY(-360deg);
+}

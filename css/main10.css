@@ -1,0 +1,21 @@
+.big{
+    width: 800px;
+    height: 400px;
+    background-color: gold;
+    margin: 100px auto;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    background: linear-gradient(90deg,white 50%,wheat 50%);
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 100px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 220px;
+    box-shadow: 10px 10px 0 grey;
+}

@@ -1,0 +1,15 @@
+body{
+    background-color: white;
+}
+.row{
+    color: black;
+    width: 1000px;
+    height: 700px;
+    background: radial-gradient(green ,white,blue );
+    text-align: center;
+    margin: 100px auto;
+    box-sizing: border-box;
+}
+h1{
+    padding-top: 300px;
+}

@@ -1,0 +1,9 @@
+body{
+  background-color: white;
+}
+.col{
+    width: 1200px;
+    height: 600px;
+    background: radial-gradient(red ,yellow,limegreen );
+    margin: 100px auto;
+}

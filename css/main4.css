@@ -1,0 +1,25 @@
+body{
+    background-color: white;
+}
+.wrap{
+    width: 1200px;
+    height: 150px;
+    background: linear-gradient(red,deepskyblue,greenyellow);
+    margin: 100px;
+    padding: 80px;
+    margin-bottom: -30px;
+
+}
+h1{
+    display: block;
+    color: grey;
+    text-align: center;
+
+}
+.wrap1{
+    width: 1200px;
+    height: 150px;
+    background: linear-gradient(90deg,orange,yellow,green, blue);
+    margin: 100px;
+    padding: 85px;
+}

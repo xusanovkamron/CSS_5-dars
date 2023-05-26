@@ -1,0 +1,51 @@
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(20deg,blue,lightblue);
+}
+.loaer-block{
+    width: 600px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+    top: 30%;
+    left: 30%;
+}
+.loader-item{
+    width: 20%;
+    height: 30%;
+    border-radius: 20%;
+    background-color: lightgreen;
+    position: absolute;
+    top: 40%;
+    left: 15px;
+    animation-name: a;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+@keyframes a {
+    0%{
+        transform: translate(0,70px);
+        background-color: green;
+    }
+    25%{
+        transform: translate(0,0);
+        background-color: green;
+    }
+    50%{
+        transform: translate(350px,0) rotate(180deg);
+        background-color: pink;
+    }
+    75%{
+        transform: translate(350px,70px) rotate(180deg);
+    }
+    100%{
+        transform: translate(350px,70px) rotate(180deg);
+        background-color: blue;
+    }
+}
+

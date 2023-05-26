@@ -1,0 +1,29 @@
+body{
+    margin: 100px auto;
+}
+.itemm{
+    width: 200px;
+    height: 200px;
+    display: block;
+    background: linear-gradient(320deg,deepskyblue,purple);
+    padding: 65px;
+    margin: 100px auto;
+    box-sizing: border-box;
+}
+.item{
+    width: 70px;
+    height: 70px;
+    background-color:white;
+    color: orange;
+    border-radius: 15px;
+    padding-top: 23px;
+    padding-left: 13px;
+    box-sizing: border-box;
+}
+.item-1{
+    float: left;
+    color: orange;
+}
+.item-2{
+    color: royalblue;
+}
